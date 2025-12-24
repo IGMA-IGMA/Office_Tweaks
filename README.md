@@ -1,18 +1,22 @@
 Структура проекта:
-Office_TweaksPRO/
-├── officetweaks2/
-│   ├── dist/
-│   ├── cleaner.py
-│   ├── cli_parser.py
-│   ├── converter.py
-│   ├── file_manager.py
-│   ├── image_processor.py
-│   ├── interactive_menu.py
-│   ├── office_tweaks.py
-│   ├── utils.py
-│   └── requirements.txt
-├── venv/
-└── office_tweaks.log
+
+
+      Office_TweaksPRO/
+      ├── officetweaks2/
+      │   ├── dist/
+      │   ├── cleaner.py
+      │   ├── cli_parser.py
+      │   ├── converter.py
+      │   ├── file_manager.py
+      │   ├── image_processor.py
+      │   ├── interactive_menu.py
+      │   ├── office_tweaks.py
+      │   ├── utils.py
+      │   └── requirements.txt
+      ├── venv/
+      └── office_tweaks.log
+
+
 Инструкция по подготовке виртуального окружения:
 Создание виртуального окружения (через консоль)
 В терминале VS Code (находясь в корне проекта):

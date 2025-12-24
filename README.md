@@ -54,12 +54,23 @@ Office_Tweaks.exe --compress-images all --workdir "./photos" --quality 75
 Office_Tweaks.exe --compress-images "photo.jpg" --quality 90
 
 Удаление файлов
-Office_Tweaks.exe --delete --mode extension --pattern ".tmp"
-Office_Tweaks.exe --delete --mode startswith --pattern "temp_"
-Office_Tweaks.exe --delete --mode endswith --pattern "_backup"
-Office_Tweaks.exe --delete --mode contains --pattern "draft"
-Office_Tweaks.exe --delete --mode extension --pattern ".log" --delete-dir "C:\Logs"
 
+```bash
+Office_Tweaks.exe --delete --mode extension --pattern ".tmp"
+```
+```bash
+
+Office_Tweaks.exe --delete --mode startswith --pattern "temp_"
+```
+```bash
+Office_Tweaks.exe --delete --mode endswith --pattern "_backup"
+```
+```bash
+Office_Tweaks.exe --delete --mode contains --pattern "draft"
+```
+```bash
+Office_Tweaks.exe --delete --mode extension --pattern ".log" --delete-dir "C:\Logs"
+```
 
 
 ## Автор  

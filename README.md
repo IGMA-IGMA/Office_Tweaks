@@ -32,7 +32,7 @@ pip install -r requirements.txt
 pip install pdf2docx docx2pdf Pillow colorama tqdm
 Интерактивный режим:
 Office_Tweaks.exe -i
-# или
+или
 Office_Tweaks.exe
 
 Конвертация через аргументы:
